@@ -2,8 +2,8 @@
 
 Python is a versatile and powerful programming language known for its readability and straightforward syntax. It is a favorite among developers in diverse fields, from web development to data science, due to its simplicity and the vast ecosystem of libraries and frameworks it supports.
 
-![Python Logo](images/python-logo.png "Python")
-<!-- alternative: ![Python Logo](https://www.python.org/static/img/python-logo.png "Python") -->
+![Python Logo](https://www.python.org/static/img/python-logo.png "Python")
+<!-- alternative: ![Python Logo](images/python-logo.png "Python") -->
 
 
 ## 1. Python's Key Features
@@ -30,7 +30,6 @@ Python comes with a *vast standard library*, often referred to as its "batteries
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
-
 def do_GET(self):
 self.send_response(200)
 self.end_headers()
@@ -80,7 +79,7 @@ Here is a table of some popular Python libraries and their uses:
     	border-collapse: collapse; /* Avoids double table margins */
     }
   	th, tr, td {
-  		border: 2px solid #ececec; /* Color “light grey, slightly darker for frame lines */
+  		border: 1px solid #ececec; /* Color “light grey, slightly darker for frame lines */
   	}
     th {
   		background-color: #ffffff; /* Background color “white” for the column headings */
