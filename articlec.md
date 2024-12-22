@@ -36,8 +36,6 @@ self.end_headers()
 self.wfile.write(b'Hello, Python!')
 ```
 
-Lorem ipsum dolor sit amet
-
 
 ## 2. Python in Various Domains
 Whether it's web development or artificial intelligence, Python finds its application in numerous areas. Here's a look at some of them:
